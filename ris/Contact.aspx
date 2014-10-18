@@ -1,17 +1,23 @@
 ﻿<%@ Page Title="Contact" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="ris.Contact" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <h2><%: Title %>.</h2>
-    <h3>Your contact page.</h3>
+    <div class="jumbotron blue-color">
+                   <img src ="jumboyayasmall.png"></img>
+                 </div>
+    <h2><%: Title %></h2>
+    <h3>Research Investigator's Source</h3>
     <address>
-        One Microsoft Way<br />
-        Redmond, WA 98052-6399<br />
+        715 Florida Avenue South<br />
+        Suite 105<br />
+        Minneapolis, MN 55426<br />
         <abbr title="Phone">P:</abbr>
-        425.555.0100
+        763.591.7790
+        <abbr title="Fax">F:</abbr>
+        763.544.1415
     </address>
 
     <address>
-        <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-        <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
+        <strong>Email:</strong>   <a href="mailto:Support@example.com">info@clinicalinvestigators.com</a><br />
+        
     </address>
 </asp:Content>
