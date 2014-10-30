@@ -5,38 +5,36 @@
    <div class="jumbotron blue-color">
                    <img src ="jumboyayasmall.png"></>
     </div>
-    <div class="navbar active">
-    <div class="navbar-inner">
-        <h2>Getting Started....</h2>
-      
-  </div>
-</div>
+    
+        
+ 
 
     <div class="row">
-        <div class="col-md-4 contentbox">
-            <h2>Investigators</h2>
-            <p>
+        <div class="col-md-5 contentbox">
+            <div class ="headerd" style="background: #0066FF;">
+           <h2 class ="white-color">Investigators</h2></div>
+              <p>
                 Sign up and join the directory.
                 
             </p>
             <p>
-                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301948">Learn more &raquo;</a>
+                <a class="btn btn-default" runat="server" href="~/Investigators">Learn more &raquo;</a>
             </p>
         </div>
-        <div class="col-md-4 contentbox">
-            <h2>Sponsors</h2>
+        <div class="col-md-5 contentbox">
+             <div class ="headerd" style="background: #E8BF19;"> <h2 class ="white-color">Sponsors</h2></div>
             <p>
                 Sponsors, get an investigators
             </p>
             <p>
-                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301949">Learn more &raquo;</a>
+                <a class="btn btn-default" runat="server" href="~/Sponsors">Learn More &raquo;</a>
             </p>
         </div>
         
     </div>
     <div class="row">
-        <div class="col-md-4 contentbox">
-            <h2>How to Become A Member</h2>
+        <div class="col-md-5 contentbox">
+             <div class ="headerd" style="background: #8533FF;"> <h2 class ="white-color">Become A Member</h2></div>
             <p>
                 Simply fill out an application
                 and submit your information to have your listing in the directory.
@@ -45,13 +43,15 @@
                 <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301950">Application &raquo;</a>
             </p>
         </div>
-        <div class="col-md-4 contentbox">
-            <h2>Search Online Directory</h2>
+        <div class="col-md-5 contentbox">
+            
+           
+             <div class ="headerd" style="background: #29A329;"> <h2 class ="white-color">Search the Directory</h2></div>
             <p>
-                You can easily find ainvestigators by searching the online directory.
+                You can easily find investigators, CROs, facilities by searching the online directory.
             </p>
             <p>
-                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301950">Search Now &raquo;</a>
+                <a class="btn btn-default" href="http://www.idataserv.com/clinicalinvestigators/onlinedir.htm">Search Now &raquo;</a>
             </p>
         </div>
         </div>

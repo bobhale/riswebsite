@@ -17,7 +17,7 @@
     </address>
 
     <address>
-        <strong>Email:</strong>   <a href="mailto:Support@example.com">info@clinicalinvestigators.com</a><br />
+        <strong>Email:</strong>   <a href="mailto:info@clinicalinvestigators.com">info@clinicalinvestigators.com</a><br />
         
     </address>
 </asp:Content>

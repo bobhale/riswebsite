@@ -4380,6 +4380,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   .navbar-text {
     margin-right: 15px;
     margin-left: 15px;
+    color: #ffffff;
   }
 }
 
@@ -4389,12 +4390,12 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-default .navbar-brand {
-  color: #777777;
+  color: #ffffff;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #5e5e5e;
+  color: #ffffff;
   background-color: transparent;
 }
 
@@ -4453,7 +4454,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  color: #555555;
+  color: #ffffff;
   background-color: #e7e7e7;
 }
 
@@ -4471,17 +4472,17 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #777777;
+    color: #ffffff;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #333333;
+    color: #ffffff;
     background-color: transparent;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #555555;
+    color: #ffffff;
     background-color: #e7e7e7;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
@@ -4493,7 +4494,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-default .navbar-link {
-  color: #777777;
+  color: #ffffff;
 }
 
 .navbar-default .navbar-link:hover {
@@ -4506,7 +4507,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-inverse .navbar-brand {
-  color: #999999;
+  color: #ffffff;
 }
 
 .navbar-inverse .navbar-brand:hover,
@@ -4928,8 +4929,8 @@ a.list-group-item.active > .badge,
 }
 
 .jumbotron {
-  padding: 10px;
-  margin-bottom: 30px;
+  padding: 5px;
+  margin-bottom: 10px;
   font-size: 21px;
   font-weight: 200;
   line-height: 2.1428571435;
@@ -4952,15 +4953,15 @@ a.list-group-item.active > .badge,
 
 @media screen and (min-width: 768px) {
   .jumbotron {
-    padding-top: 48px;
-    padding-bottom:48px;
+    padding-top: 10px;
+    padding-bottom:10px;
   }
   .container .jumbotron {
     padding-right: 30px;
     padding-left: 30px;
   }
   .jumbotron h1 {
-    font-size: 63px;
+    font-size: 15px;
   }
 }
 
