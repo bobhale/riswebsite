@@ -9,6 +9,7 @@ body {
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
+    background: #000066;
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -112,4 +113,9 @@ input[type="select"] {
     color: #000066;
      font-weight: bold;
      font-size:medium;
+}
+
+.body-blue {
+
+    background: #000066;
 }
