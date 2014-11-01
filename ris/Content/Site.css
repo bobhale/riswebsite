@@ -9,7 +9,7 @@ body {
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
-    background: #000066;
+    background: #0047B2;
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -31,7 +31,7 @@ input[type="select"] {
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
     .jumbotron {
-        margin-top: 20px;
+        margin-top: 0px;
     }
     .body-content {
         padding: 0;
@@ -53,13 +53,13 @@ input[type="select"] {
 
 
 .contentbox {
-    border: 2px solid #000066;
+    border: 0px solid #000066;
     border-radius:5px;
     margin-left: 3px;
 }
 
 .nav-box {
-     background:#990033;
+     background: #E60000;
 }
 
 .feet {
@@ -84,17 +84,21 @@ input[type="select"] {
     overflow: auto;
 }
 .headerd {
-    height: 50px;
-    border-bottom: 1px solid #EEE;
     background-color: #000066;
     padding-left: 50px;
-    height: 50px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    align-content:center;
+    height: 100px;
+    /*
     -webkit-border-top-left-radius: 5px;
     -webkit-border-top-right-radius: 5px;
     -moz-border-radius-topleft: 5px;
     -moz-border-radius-topright: 5px;
     border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-top-right-radius: 5px;*/
+    border-radius:5px;
 }
 .footerd {
     height: 40px;
